@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../Image/pic_boat_portrait.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #9E9E9E;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 400;
+  color: #757575;
+  font-size: 60px;
+  text-shadow:1px 2px 0 #444;
+}
+
+.blog-flex {
+  display: flex;
+}
+
+.img-txt {
+  margin: 30px 60px;
+  width: 60%;
+  background-color: #F1F1F1;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 5px 9px 0 #00000033, 0 7px 21px 0 #00000030;
+}
+
+img {
+  width: 100%;
+}
+
+.fst {
+  position: relative;
+}
+
+.nc-div {
+  font-size: 27px;
+  position: absolute;
+  width: fit-content;
+  bottom: 30px;
+  left: 20px;
+}
+
+.container {
+  background-color: #FFFFFF;
+  padding: 14px;
+  text-align: justify;
+}
+
+.section-container {
+  margin: 20px 50px;
+  width: 92%;
+  background-color: #F1F1F1;
+}
+
+.card4 {
+  width: 100%;
+  box-shadow: 0 5px 9px 0 #00000033, 0 7px 21px 0 #00000030;
+}
+
+img {
+  width: 100%;
+}
+
+.container-white {
+  background-color: #FFFFFF;
+  padding: 14px;
+  text-align: justify;
+}
+
+
+.envelope-container {
+  width: 30%;
+  height: fit-content;
+  margin: 30px -45px;
+}
+
+.circle {
+  background-color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -20px;
+  top: -25px;
+  cursor: pointer;
+}
+
+.circle:hover {
+  box-shadow: 3px 7px 20px 3px #00000033, 3px 7px 20px 3px #00000030;
+}
+
+.first-env {
+  height: fit-content;
+  margin-bottom: 15px;
+}
+
+.card5 {
+  position: relative;
+  width: 100%;
+  box-shadow: 3px 7px 11px 0 #00000033, 0 7px 21px 0 #00000030;
+}
+
+.cont-white {
+  padding: 14px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.section-cont {
+    height: 280px;
+    width: 100%;
+}
+
+.fa-envelope {
+  font-size: 60px;
+  margin: 90px 170px;
+}
+
+.numbers {
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 150px;
+}
+.second-env {
+  /* border: 1px solid red; */
+  height: fit-content;
+}
+
+.section-cont2 {
+  /* margin: 5px 5px; */
+  height: 190px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.cont-white2 {
+  padding: 14px;
+  text-align: center;
+}
+
+.numbers2 {
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 150px;
+}
+
+.fa-2xl {
+  font-size: 50px;
+  margin: 75px 170px;
+}
+
+.black-back {
+  font-weight: 400;
+  color: #757575;
+  font-size: 60px;
+  /* text-shadow:1px 2px 0 #000000; */
+}
